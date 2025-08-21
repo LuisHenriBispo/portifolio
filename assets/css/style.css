@@ -200,3 +200,17 @@ form button:hover {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+/* Mensagens de erro */
+span[id^="err"] {
+  display: block;
+  font-size: 0.9rem;
+  color: #d93025;
+  margin-bottom: 0.5rem;
+}
+
+/* Campo com erro (opcional: aplicar via JavaScript) */
+.input-error {
+  border-color: #d93025 !important;
+  background-color: #fff0f0;
+}
